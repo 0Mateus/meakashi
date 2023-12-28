@@ -1,0 +1,89 @@
+void main()
+{
+}
+
+void dialog000()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…私は気持ちよく酔っ払ってしまって、……ここに泊まってしまったが、",
+		   NULL, "I got drunk, fell asleep, and decided to stay overnight.", Line_WaitForInput);
+	OutputLine(NULL, "それが本当にお酒によるものなのか、",
+		   NULL, " Was that because of the alcohol,", Line_WaitForInput);
+	OutputLine(NULL, "……何か睡眠薬が混入されていたのか分からない。",
+		   NULL, " or did someone put a drug in my drink?", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………確かに、私ともあろうものが、酔い潰れて、よりにもよって鬼婆の家に泊まり込むなどちょっと考え難い。",
+		   NULL, "It's not like me to get drunk and spend a night at the hag's house.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　祭具殿で気味の悪いことがあって、…それを忘れるために馬鹿騒ぎしてお酒を飲んで。",
+		   NULL, "I wanted to forget about what happened in that eerie storehouse, so I drank too much.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………それにしたって、悪酔いし過ぎだった。",
+		   NULL, "But it really was strange for me to get that drunk.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog001()
+{
+}
+
+void dialog002()
+{
+}
+
+void dialog003()
+{
+}
+
+void dialog004()
+{
+}
+
+void dialog005()
+{
+}
+
+void dialog006()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601572", 256, TRUE);
+	OutputLine(NULL, "「……ねぇ魅音。",
+		   NULL, "\"Hey, Mion...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601573", 256, TRUE);
+	OutputLine(NULL, "………今こうして思い返すと、私はやっぱり鬼婆を殺すだけの理由があったように思うの。",
+		   NULL, " Now that I think about it...... I did have a reason to kill the hag.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601574", 256, TRUE);
+	OutputLine(NULL, "なぜか分かる？",
+		   NULL, " Do you know what it was?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601575", 256, TRUE);
+	OutputLine(NULL, "　……単に悟史くんを殺した張本人だからってだけじゃないよ。",
+		   NULL, " ...It wasn't just because she killed Satoshi-kun.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601576", 256, TRUE);
+	OutputLine(NULL, "それは嘘を吐いたから！！」",
+		   NULL, " It's because she lied!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog007()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601591", 256, TRUE);
+	OutputLine(NULL, "「……あんたが何も知らないのは本当だと思う。",
+		   NULL, "\"I believe you don't know anything.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601592", 256, TRUE);
+	OutputLine(NULL, "あんた自身、鬼婆に真の意味で信頼を得ていたかは怪しいからね。",
+		   NULL, " You aren't even sure if the hag actually trusted you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601593", 256, TRUE);
+	OutputLine(NULL, "………でも、鬼婆が本当に私のけじめで悟史くんを許したかは分からないよ。",
+		   NULL, " But... I don't know if she forgave Satoshi-kun because of what I did.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601594", 256, TRUE);
+	OutputLine(NULL, "甘ちゃんなあんたに、本当のところを打ち明けるわけもない。」",
+		   NULL, " She wouldn't have told you the truth.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}

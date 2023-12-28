@@ -1,0 +1,22 @@
+void main()
+{
+}
+
+void dialog000()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#76523d>葛西</color>", NULL, "<color=#76523d>Kasai</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500164", 256, TRUE);
+	OutputLine(NULL, "「………園崎本家としては、…詩音さんがご自分でけじめを付けられたので、これで決着とするそうです。",
+		   NULL, "\"......Because you paid up, the family decided to close the matter...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500165", 256, TRUE);
+	OutputLine(NULL, "……あの学園には退学届が出されます。",
+		   NULL, " You will officially withdraw from the academy", Line_WaitForInput);
+	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500166", 256, TRUE);
+	OutputLine(NULL, "詩音さんは興宮の学校に編入になるそうです。」",
+		   NULL, " and transfer to a school in Okinomiya.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog001()
+{
+}
