@@ -3,139 +3,139 @@
         {
             "Id": 1,
             "Script": "_meak_tips_01",
-            "Title": "The Notebook's Beginning",
+            "Title": "O Começo do Diário",
             "TitleJp": "ノートの冒頭"
         },
         {
             "Id": 2,
             "Script": "_meak_tips_02",
-            "Title": "A Smudged Diary",
+            "Title": "Um Diário Manchado",
             "TitleJp": "にじんだ日記"
         },
         {
             "Id": 3,
             "Script": "_meak_tips_03",
-            "Title": "A Crumpled Diary",
+            "Title": "Um Diário Amassado",
             "TitleJp": "くしゃくしゃの日記"
         },
         {
             "Id": 4,
             "Script": "_meak_tips_04",
-            "Title": "Notebook Page 21",
+            "Title": "Página 21 do Caderno",
             "TitleJp": "ノート２１ページ"
         },
         {
             "Id": 5,
             "Script": "_meak_tips_05",
-            "Title": "Notebook Page 24",
+            "Title": "Página 24 do Caderno",
             "TitleJp": "ノート２４ページ"
         },
         {
             "Id": 6,
             "Script": "_meak_tips_06",
-            "Title": "A Torn Diary",
+            "Title": "Um Diário Rasgado",
             "TitleJp": "粉々の日記"
         },
         {
             "Id": 7,
             "Script": "_meak_tips_07",
-            "Title": "Notebook Page 29",
+            "Title": "Página 29 do Caderno",
             "TitleJp": "ノート２９ページ"
         },
         {
             "Id": 8,
             "Script": "_meak_tips_08",
-            "Title": "Notebook Page 34",
+            "Title": "Página 34 do Caderno",
             "TitleJp": "ノートの３４ページ"
         },
         {
             "Id": 9,
             "Script": "_meak_tips_09",
-            "Title": "Notebook Page 42",
+            "Title": "Página 42 do Caderno",
             "TitleJp": "ノートの４２ページ"
         },
         {
             "Id": 10,
             "Script": "_meak_tips_10",
-            "Title": "Notebook Page 50",
+            "Title": "Página 50 do Caderno",
             "TitleJp": "ノートの５０ページ"
         },
         {
             "Id": 11,
             "Script": "_meak_tips_11",
-            "Title": "Notebook Page 64",
+            "Title": "Página 64 do Caderno",
             "TitleJp": "ノートの６４ページ"
         },
         {
             "Id": 12,
             "Script": "_meak_tips_12",
-            "Title": "Notebook Page 85",
+            "Title": "Página 85 do Caderno",
             "TitleJp": "ノートの８５ページ"
         },
         {
             "Id": 13,
             "Script": "_meak_tips_13",
-            "Title": "Notebook Page 172",
+            "Title": "Página 172 do Caderno",
             "TitleJp": "ノートの１７２ページ"
         },
         {
             "Id": 14,
             "Script": "_meak_tips_14",
-            "Title": "Notebook Page 173",
+            "Title": "Página 173 do Caderno",
             "TitleJp": "ノートの１７３ページ"
         },
         {
             "Id": 15,
             "Script": "_meak_tips_15",
-            "Title": "Notebook Page 179",
+            "Title": "Página 179 do Caderno",
             "TitleJp": "ノートの１７９ページ"
         },
         {
             "Id": 16,
             "Script": "_meak_tips_16",
-            "Title": "Notebook Page 183",
+            "Title": "Página 183 do Caderno",
             "TitleJp": "ノートの１８３ページ"
         },
         {
             "Id": 17,
             "Script": "_meak_tips_17",
-            "Title": "Notebook Page 185",
+            "Title": "Página 185 do Caderno",
             "TitleJp": "ノートの１８５ページ"
         },
         {
             "Id": 18,
             "Script": "_meak_tips_18",
-            "Title": "Notebook Page 188",
+            "Title": "Página 188 do Caderno",
             "TitleJp": "ノートの１８８ページ"
         },
         {
             "Id": 19,
             "Script": "_meak_tips_19",
-            "Title": "Notebook Page 195",
+            "Title": "Página 195 do Caderno",
             "TitleJp": "ノートの１９５ページ"
         },
         {
             "Id": 20,
             "Script": "_meak_tips_20",
-            "Title": "Notebook Page 196",
+            "Title": "Página 196 do Caderno",
             "TitleJp": "ノートの１９６ページ"
         },
         {
             "Id": 21,
             "Script": "_meak_tips_21",
-            "Title": "Notebook Page 199",
+            "Title": "Página 199 do Caderno",
             "TitleJp": "ノートの１９９ページ"
         },
         {
             "Id": 22,
             "Script": "_meak_tips_22",
-            "Title": "A Happy Diary",
+            "Title": "Um Diário Feliz",
             "TitleJp": "幸せのノート"
         },
         {
             "Id": 23,
             "Script": "_meak_tips_23",
-            "Title": "Disowned",
+            "Title": "Renegada",
             "TitleJp": "チャンバラで勘当"
         }
     ]
