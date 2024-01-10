@@ -2639,7 +2639,7 @@ void main()
 		   NULL, "Em outras palavras, ela era a sucessora da família Sonozaki e sua linhagem demoníaca.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
-	//;O jogo não consegue exibir o kanji 寺 
+	//;O jogo não consegue exibir o kanji 寺
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして私の「詩音」には「寺」の一字が入っている。",
 		   NULL, "Meu nome, 'Shion', tem o caractere 'tera' (templo) nele.", GetGlobalFlag(GLinemodeSp));
