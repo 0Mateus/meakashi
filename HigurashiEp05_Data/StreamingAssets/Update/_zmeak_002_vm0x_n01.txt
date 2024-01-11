@@ -11,16 +11,16 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150600198_1", 256, TRUE);
 	OutputLine(NULL, "「叔父さん、私を見てまだ小さい子供って言うのなら、",
-		   NULL, "\"Hey, if you think I still look like a small child,", Line_Continue);
+		   NULL, "\"Ei, se você acha que eu ainda pareço uma criancinha,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 3000 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "眼科行くか、",
-		   NULL, " you should see an eye doctor.", Line_Continue);
+		   NULL, " você deveria procurar um oculista.", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "回し蹴り食らうかのどちらかを選んでもらうことになるんですけど。」",
-		   NULL, " Either that, or accept a roundhouse kick from me.\"", Line_Normal);
+		   NULL, " Ou isso, ou aceite receber um chute circular de mim.\"", Line_Normal);
 	ClearMessage();
 }
