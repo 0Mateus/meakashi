@@ -11,16 +11,16 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150600198_1", 256, TRUE);
 	OutputLine(NULL, "「叔父さん、私の体のラインが未だ幼児体型に見えるってんなら、",
-		   NULL, "\"Hey, if you think my body looks underdeveloped,", Line_Continue);
+		   NULL, "\"Ei, se você acha que meu corpo parece mal desenvolvido,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 3000 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "目医者行くか、",
-		   NULL, " you should see an eye doctor.", Line_Continue);
+		   NULL, " você deveria procurar um oculista.", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ロリコンって呼ばれたいかのどちらかを選んでもらうことになるんですけど。」",
-		   NULL, " Either that, or you're a pedo.\"", Line_Normal);
+		   NULL, " Ou isso, ou você é um lolicon.\"", Line_Normal);
 	ClearMessage();
 }
