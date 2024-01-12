@@ -1994,7 +1994,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう言えば…もうすぐじゃないか。",
-		   NULL, "Falando nissi, o festival do Watanagashi...", Line_WaitForInput);
+		   NULL, "Falando nisso, o festival do Watanagashi...", Line_WaitForInput);
 
 	PlaySE( 4, "wa_022", 56, 64 );
 	FadeOutBGM( 1, 300, FALSE );
