@@ -12,99 +12,99 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悟史くんがよほど狡猾だったか、幸運に恵まれたか、",
-		   NULL, "Either Satoshi-kun was smart, or very lucky.", Line_WaitForInput);
+		   NULL, "Ou Satoshi-kun era esperto, ou muito sortudo.", Line_WaitForInput);
 	OutputLine(NULL, "…それとも本当に悟史くんではないのか、犯行現場には悟史くんが犯人であることを示す痕跡は残されていなかった。",
-		   NULL, " Or maybe it wasn't him... The police found nothing at the crime scene to indicate his involvement in the murder.", Line_Normal);
+		   NULL, " Ou talvez não fosse ele... A polícia não encontrou nada na cena do crime para indicar seu envolvimento no assassinato.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それでも、この時点では、悟史くんが犯人ということでほぼ確定だった。",
-		   NULL, "Yet Satoshi-kun was still the prime suspect.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo assim, Satoshi-kun ainda era o principal suspeito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悟史くんの家庭の状況を見れば殺意は充分。",
-		   NULL, "Considering his home environment, he had a strong enough motive.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Considerando seu ambiente doméstico, ele tinha um motivo bastante forte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　アリバイもない。",
-		   NULL, "He had no alibi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele não tinha um álibi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　物証以外の外堀は全て埋まっていた。",
-		   NULL, "The police had everything other than physical evidence.", Line_Normal);
+		   NULL, "A polícia tinha tudo, menos a evidência física.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石があそこで勝負に出てきたのは至極当然だ。",
-		   NULL, "It wasn't surprising that Ooishi took a chance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não era surpreendente que Ooishi viesse atrás dele.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私と言うジョーカーの登場までは予想できなかったろうが、それでも悟史くんの圧倒的に不利な状況を覆すほどではない。",
-		   NULL, "He probably didn't expect me to step in. But what I did was too little to avert his suspicion of Satoshi-kun.", Line_Normal);
+		   NULL, "Ele provavelmente não esperava que eu me intrometesse. Mesmo assim, o que eu fiz era muito pouco para tirar suas suspeitas de Satoshi-kun.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石は動物的嗅覚で、悟史くんに違いないともう当たりをつけている。",
-		   NULL, "Ooishi believed that Satoshi-kun did it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi acreditava que Satoshi-kun havia cometido o crime.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あとは悟史くんが揺れて、勝手に折れてくれるのを待つだけ……。",
-		   NULL, "He was waiting for Satoshi-kun to fall apart and confess...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele estava esperando Satoshi-kun desmoronar e confessar...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう思っていた。",
-		   NULL, "That's what", Line_WaitForInput);
+		   NULL, "Isso é o que", Line_WaitForInput);
 	OutputLine(NULL, "私も。",
-		   NULL, " both Ooishi", Line_WaitForInput);
+		   NULL, " ambos, Ooishi", Line_WaitForInput);
 	OutputLine(NULL, "大石も。",
-		   NULL, " and I were thinking.", Line_Normal);
+		   NULL, " e eu, estávamos pensando.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後日、そのちゃぶ台がひっくり返されることになる。",
-		   NULL, "But that hypothesis was destroyed later on.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas, essa hipótese foi destruída mais tarde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それについてはここでは割愛するが、",
-		   NULL, "I'll not talk about it now,", Line_WaitForInput);
+		   NULL, "Eu não vou falar sobre isso agora,", Line_WaitForInput);
 	OutputLine(NULL, "とにかく、大石の目論見は完全に崩れ、警察はノックアウトされることになるのだ。",
-		   NULL, " but Ooishi's theory will be disproven, and the police will be thrown into shock.", Line_Normal);
+		   NULL, " mas a teoria de Ooishi será refutada e a polícia ficará chocada.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうすると、私が抱く疑問はひとつしかない。",
-		   NULL, "A question comes to mind.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uma questão vem à mente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰が悟史くんを救ってくれたの？",
-		   NULL, "That is....", Line_WaitForInput);
+		   NULL, "Isto é....", Line_WaitForInput);
 	OutputLine(NULL, "　ということ。",
-		   NULL, " who saved Satoshi-kun?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " quem salvou Satoshi-kun?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この時点での私は、園崎本家が暗躍して犯人をでっちあげてくれた他に、何も思いつくことはできなかった。",
-		   NULL, "I can only think of the possibility that the Sonozaki family invented the culprit.", Line_Normal);
+		   NULL, "Eu só posso pensar em uma possibilidade, que a família Sonozaki inventou um culpado.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	Wait( 1000 );
