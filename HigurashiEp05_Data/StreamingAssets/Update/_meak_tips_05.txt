@@ -12,88 +12,88 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この時点での悟史くんの様子は本当に気の毒なものだった。",
-		   NULL, "Satoshi-kun looked terrible.", Line_Normal);
+		   NULL, "Satoshi-kun parecia terrível.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家に帰れば叔母と沙都子の喧嘩・苛めに割って入って精神をすり切らせ。",
-		   NULL, "When he went home, he had to mediate a fight between Satoko and their aunt. He became mentally exhausted.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando ele foi para casa, teve que mediar uma luta entre Satoko e sua tia. Ele ficou mentalmente exausto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　にもかかわらず、毎日バイトに出掛け、肉体までもすり切らせ…。",
-		   NULL, "He went to work every day. He became physically exhausted.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele ia trabalhar todos os dias. Ele estava fisicamente exausto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仲間との接触はほとんどなくなり、学校でも休み時間には、机の上に突っ伏して寝ているか、",
-		   NULL, "He no longer communicated with his classmates. He's either slept on his desk,", Line_WaitForInput);
+		   NULL, "Ele não mais se comunicava com seus colegas de classe. Ele dormia em sua carteira,", Line_WaitForInput);
 	OutputLine(NULL, "どこかに姿をくらましているかのどっちかだったらしい。",
-		   NULL, " or was gone somewhere during lunch break.", Line_Normal);
+		   NULL, " ou ia a algum lugar no intervalo do almoço.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おっとりとしていた、在りし日の悟史くんを思うと、あまりに痛々しい。",
-		   NULL, "He used to be really gentle. It was painful to see him suffering like that.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele costumava ser muito gentil. Foi doloroso vê-lo sofrer assim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこにさらに「オヤシロさまの祟り」が降りかかってきたのだから、その心労は並大抵ではなかったろう。",
-		   NULL, "On top of all that, he was dealing with the curse of Oyashiro-sama. He must have been completely, totally, and absolutely exhausted.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E, acima de tudo, ele estava lidando com a maldição de Oyashiro-sama. Isso devia exauri-lo completamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまの祟りとは、つまり、悟史くんを今年の犠牲者にしようという連中の「監視」のことに他ならない。",
-		   NULL, "That curse was a form of surveillance by those planning to victimize Satoshi-kun that year.", Line_Normal);
+		   NULL, "Essa maldição era uma forma de vigilância daqueles que planejavam vitimizar Satoshi-kun nesse ano.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ならば。",
-		   NULL, "That means", Line_WaitForInput);
+		   NULL, "Isso significa", Line_WaitForInput);
 	OutputLine(NULL, "この年の犠牲者となるもうひとり。",
-		   NULL, " that the other victim was in the same situation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " que a outra vítima estava na mesma situação.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり北条の叔母についても監視があったということになる。",
-		   NULL, "Satoshi-kun's aunt had also been watched.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A tia de Satoshi-kun também estava sendo observada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　叔母もまた、監視の気配を感じていたのだろうか？",
-		   NULL, "Did she notice any presence?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Será que ela não percebia alguma presença?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、叔母に限らない。",
-		   NULL, "What about the others?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E, quanto aos outros?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　過去の犠牲者たちは皆、そういう監視の目があったのだろうか？",
-		   NULL, "Did the victims of the previous incidents also experience it?", Line_Normal);
+		   NULL, "Será que as vítimas dos anos anteriores também experimentaram isso?", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悟史くんの「祟り」が「監視」であったことを立証するためにも、調べた方がいい。",
-		   NULL, "I need to investigate the facts in order to prove the curse on Satoshi-kun was actually just surveillance.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu preciso investigar os fatos, a fim de provar que a maldição sobre Satoshi-kun foi realmente apenas vigilância.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「監視」か、",
-		   NULL, "Is it surveillance,", Line_ContinueAfterTyping);
+		   NULL, "Será vigilância,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
@@ -103,7 +103,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……本当に「祟り」",
-		   NULL, " or really the curse", Line_ContinueAfterTyping);
+		   NULL, " ou realmente a 'maldição'", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
