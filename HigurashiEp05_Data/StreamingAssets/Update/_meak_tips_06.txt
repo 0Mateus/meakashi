@@ -12,88 +12,88 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕は、背中の人に囁かれる。",
-		   NULL, "Somebody whispered to me from behind.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Alguém me sussurrou pelas costas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕が今年の祟りの犠牲になること。",
-		   NULL, "They told me that I was going to be the victim of the curse this year.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dizendo-me que eu seria a vítima do Watanagashi neste ano.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからもうすぐ、ここからいなくなってしまうこと。",
-		   NULL, "So I'm going to disappear soon.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Por isso, logo, logo eu vou desaparecer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしたら、沙都子を誰も守ってくれなくなることに。",
-		   NULL, "There'll be nobody left to take care of Satoko.", Line_Normal);
+		   NULL, "Não vai restar ninguém para tomar conta de Satoko.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕は、背中の人に囁かれる。",
-		   NULL, "Somebody whispered to me from behind.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Alguém me sussurrou pelas costas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もうすぐ時間がなくなること。",
-		   NULL, "They told me that I don't have much time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dizendo-me que eu não tenho muito tempo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕が僕でいられなくなること。",
-		   NULL, "That I won't stay as myself for much longer.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Que eu não permanecerei mais eu mesmo dentro em breve.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、残された時間を大切にしなくてはならないことに。",
-		   NULL, "So I had to make the best of the days I had left.", Line_Normal);
+		   NULL, "Por isso, eu tenho de fazer o meu melhor nos dias que me restam.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子のために僕が残せるもの。",
-		   NULL, "What could I leave for Satoko?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O que eu poderia deixar para Satoko?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　欲しがってた、あの大きなぬいぐるみ。",
-		   NULL, "She wanted that huge teddy bear.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela queria aquele grande urso de pelúcia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰にも虐められない平穏な生活。",
-		   NULL, "She wanted a peaceful life in which nobody would bully her.", Line_Normal);
+		   NULL, "Ela queria uma vida pacífica, na qual ninguém a maltratasse.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕は、背中の人に囁きかける。",
-		   NULL, "I whispered to the person at my back.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu sussurrei para a pessoa atrás de mim:", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたの乱暴さと、恐ろしさ、そして強靭さをどうか僕に。",
-		   NULL, "Bestow your violent nature and formidable strength upon me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Conceda-me sua natureza violenta e força formidável.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたの、憎しみ以外考えなくていい、心の平穏を、",
-		   NULL, "I want your peaceful mind", Line_ContinueAfterTyping);
+		   NULL, "A sua mente tranquila, preenchida de ódio", Line_ContinueAfterTyping);
 	Wait( 1500 );
 	OutputLine(NULL, "僕に。",
-		   NULL, " filled with hatred.", Line_Normal);
+		   NULL, " conceda-a para mim.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
