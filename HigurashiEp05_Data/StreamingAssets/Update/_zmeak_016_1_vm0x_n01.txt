@@ -7,7 +7,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601392", 256, TRUE);
 	OutputLine(NULL, "「スクーターで行くからいいや。」",
-		   NULL, "\"I'm taking my scooter, so you don't have to.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Vou com meu scooter, não precisa me levar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
@@ -16,19 +16,19 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#76523d>葛西</color>", NULL, "<color=#76523d>Kasai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500204", 256, TRUE);
 	OutputLine(NULL, "「それはいけません。",
-		   NULL, "\"That won't do.", Line_WaitForInput);
+		   NULL, "\"Não posso permitir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500205", 256, TRUE);
 	OutputLine(NULL, "帰りに本家に寄られて親類の宴会に加わられるんでしょう？",
-		   NULL, " Aren't you going to the family party afterwards?", Line_WaitForInput);
+		   NULL, " Você não vai mais tarde à festa da família?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 15, "ps3/s06/15/151500206", 256, TRUE);
 	OutputLine(NULL, "　居眠り運転などさせられません。」",
-		   NULL, " I can't let you drive half asleep.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não posso deixar você dirigir sonolenta.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　車と違ってスクーターじゃ、居眠り運転なんて器用なことできないって。",
-		   NULL, "There's no way you can fall asleep on a scooter like behind the wheel of a car.", Line_WaitForInput);
+		   NULL, "Ao contrário de um carro, não há como você dormir enquanto estiver dirigindo um scooter.", Line_WaitForInput);
 	OutputLine(NULL, "ま、いいか。",
-		   NULL, " Ah, whatever.", Line_Normal);
+		   NULL, " Ah, tanto faz.", Line_Normal);
 	ClearMessage();
 }
