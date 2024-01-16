@@ -6,26 +6,26 @@ void dialog000()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私は気持ちよく眠りこけてしまって、……ここに泊まってしまったが、",
-		   NULL, "I fell comfortably asleep, and ended up staying overnight.", Line_WaitForInput);
+		   NULL, "Eu tinha acabado ficado um pouco sonolenta, então decidi passar a noite aqui.", Line_WaitForInput);
 	OutputLine(NULL, "それが本当に疲れだけによるものなのか、",
-		   NULL, " Was that just because I was tired,", Line_WaitForInput);
+		   NULL, " Foi apenas porque eu estava cansada,", Line_WaitForInput);
 	OutputLine(NULL, "……何か料理に睡眠薬が混入されていたのか分からない。",
-		   NULL, " or did someone put a drug in my food?", Line_Normal);
+		   NULL, " ou colocaram alguma droga na minha comida?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………確かに、私ともあろうものが、疲れと眠気でバタンキューして、よりにもよって祖母の家に泊まり込むなどちょっと考え難い。",
-		   NULL, "It's not like me to fall straight into a deep sleep and spend a night at grandma's house.", Line_Normal);
+		   NULL, "Não é como se eu pretendesse cair em um sono profundo e passar a noite na casa da vovó.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭具殿で気味の悪いことがあって、…それを忘れるために馬鹿騒ぎして。",
-		   NULL, "I wanted to forget about what happened in that eerie storehouse, so I got a little carried away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu queria esquecer o acontecido naquele estranho armazém, por isso deixei-me levar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………それにしたって、話がうますぎだった。",
-		   NULL, "But it feels like more than a coincidence.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas parece algo mais do que uma coincidência.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -54,19 +54,19 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601572", 256, TRUE);
 	OutputLine(NULL, "「……ねぇ魅音。",
-		   NULL, "\"Hey, Mion...", Line_WaitForInput);
+		   NULL, "\"Ei, Mion...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601573", 256, TRUE);
 	OutputLine(NULL, "………今こうして思い返すと、私はやっぱりバァさんを殺すだけの理由があったように思うの。",
-		   NULL, " Now that I think about it...... I did have a reason to kill grandma.", Line_WaitForInput);
+		   NULL, " Agora que eu penso nisso...... eu tinha uma razão para matar a vovó.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601574", 256, TRUE);
 	OutputLine(NULL, "なぜか分かる？",
-		   NULL, " Do you know what it was?", Line_WaitForInput);
+		   NULL, " Você sabe qual é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601575", 256, TRUE);
 	OutputLine(NULL, "　……単に悟史くんを殺した張本人だからってだけじゃないよ。",
-		   NULL, " ...It wasn't just because she killed Satoshi-kun.", Line_WaitForInput);
+		   NULL, " ...Não foi apenas porque ela matou Satoshi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601576", 256, TRUE);
 	OutputLine(NULL, "それは嘘を吐いたから！！」",
-		   NULL, " It's because she lied!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Foi porque ela mentiu!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -75,15 +75,15 @@ void dialog007()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601591", 256, TRUE);
 	OutputLine(NULL, "「……あんたが何も知らないのは本当だと思う。",
-		   NULL, "\"I believe you don't know anything.", Line_WaitForInput);
+		   NULL, "\"Eu acredito que você não sabe de nada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601592", 256, TRUE);
 	OutputLine(NULL, "あんた自身、バァさんに真の意味で信頼を得ていたかは怪しいからね。",
-		   NULL, " You aren't even sure if the old lady actually trusted you.", Line_WaitForInput);
+		   NULL, " Você nem mesmo tem certeza de que a vovó confiava em você.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601593", 256, TRUE);
 	OutputLine(NULL, "………でも、バァさんが本当に私のけじめで悟史くんを許したかは分からないよ。",
-		   NULL, " But... I don't know if she forgave Satoshi-kun because of what I did.", Line_WaitForInput);
+		   NULL, " Mas... eu não sei se ela perdoou Satoshi-kun por causa do que eu fiz.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601594", 256, TRUE);
 	OutputLine(NULL, "甘ちゃんなあんたに、本当のところを打ち明けるわけもない。」",
-		   NULL, " She wouldn't have told you the truth.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela não te contou a verdade.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
