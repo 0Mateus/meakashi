@@ -12,87 +12,87 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼婆が即死していたのは、本当に計算外だった。",
-		   NULL, "I wasn't planning to kill the hag so quickly.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não tinha planejado matar a vovó com tanta rapidez.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この時点での私は、いつか殺す相手だった問題ないと負け惜しみを言っているが、明らかに痛手だった。",
-		   NULL, "I was going to kill her anyway, but it was too soon.", Line_Normal);
+		   NULL, "Eu a mataria de qualquer forma, mas depois de algum tempo.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎天皇とも呼ばれる園崎本家の命令中枢は、一般にはピラミッド型だと思われているが、実際はそうではない。",
-		   NULL, "People would normally assume that the Sonozaki family operates as a hierarchy, but that's not true.", Line_Normal);
+		   NULL, "As pessoas normalmente assumem que a família Sonozaki opera como uma hierarquia, mas isso não é verdade.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　厳密には、省庁のような縦割り型で、それぞれの部門が小ピラミッドを形成してる。",
-		   NULL, "It's actually more like a system of government. Several ministries stem from the main family, and each forms a hierarchy of its own.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na verdade, é mais um sistema governamental. Vários ministérios se ramificam a partir da família principal, e cada um deles forma uma hierarquia própria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　縦割りゆえに横の連絡がない。",
-		   NULL, "These ministries don't communicate with one another.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Estes ministérios não se comunicam entre si.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、それどころか自分のピラミッド以外がわからない秘密主義だと言えるだろう。",
-		   NULL, "The people who belong to a given ministry don't know what other ministries are doing. That way, the Sonozaki family's dealings are kept perfectly secret.", Line_Normal);
+		   NULL, "As pessoas de um determinado ministério não sabem o que os outros ministérios estão fazendo. Dessa forma, os negócios da família Sonozaki são perfeitamente mantidos em segredo.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん園崎家の重鎮たちは、いくつもあるピラミッドの頂点に位置する。",
-		   NULL, "Of course, the most important people in the family govern several ministries.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Naturalmente, as pessoas mais importantes da família governam vários ministérios.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の下位のピラミッドについては精通している。",
-		   NULL, "They know, of course, about their own ministries...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles sabem, é óbvio, a respeito de seus próprios ministérios...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　他の親類たちが管理しているピラミッドについても、多少の情報交換は出来ている。",
-		   NULL, "And they know a little bit about the ministries their relatives run.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E também sabem um pouco sobre os ministérios dirigidos por seus parentes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、それでも全部のピラミッドについてはわかっていない。",
-		   NULL, "But none of them know everything.", Line_Normal);
+		   NULL, "Mas, nenhuma delas sabe a respeito de tudo.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　陽のピラミッド、",
-		   NULL, "There are ministries that work in the open,", Line_WaitForInput);
+		   NULL, "Alguns ministérios trabalham abertamente,", Line_WaitForInput);
 	OutputLine(NULL, "陰のピラミッド。",
-		   NULL, " there are ministries that work unseen,", Line_WaitForInput);
+		   NULL, " outros trabalham nas sombras,", Line_WaitForInput);
 	OutputLine(NULL, "その他にお魎直轄の秘密の小ピラミッドがいくつか。",
-		   NULL, " and there are some smaller ones that Oryou runs herself.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e também há alguns pequenos, que a própria Oryou dirige.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのほとんどを頭首代行である魅音は知っているようだが、だからと言って、全部知っているとは限らない。",
-		   NULL, "Mion seems to know about most of them, but she doesn't necessarily know them all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion parece saber sobre a maioria deles, mas não necessariamente conhece todos eles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　現に、最高機密である「オヤシロさまの祟り」については知らなかった。",
-		   NULL, "In fact, she didn't know about 'the curse.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De fato, ela não sabe a respeito da 'maldição'.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを思うと、鬼婆が死して永遠に口を閉ざしたのは、暗部を暴く上で致命的な痛手と言えた……。",
-		   NULL, "Considering that, the fact that the hag died before I could interrogate her is a huge loss...", Line_Normal);
+		   NULL, "Considerando isso, o fato de a vovó ter morrido antes que eu pudesse interrogá-la foi uma grande perda...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	Wait( 1000 );
