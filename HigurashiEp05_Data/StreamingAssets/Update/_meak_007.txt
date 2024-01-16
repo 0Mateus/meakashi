@@ -326,7 +326,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "org/shion4029", 256, TRUE);
+	//ModPlayVoiceLS(4, 2, "org/shion4029", 256, TRUE); //;Arquivo de voz errado!!
+	ModPlayVoiceLS(4, 2, "ps3/s06/02/150200003", 256, TRUE);
 	OutputLine(NULL, "「………気分が優れないの？」",
 		   NULL, "\"Você não está se sentindo bem?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
