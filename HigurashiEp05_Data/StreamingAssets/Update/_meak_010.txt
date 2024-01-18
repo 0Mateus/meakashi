@@ -1269,7 +1269,7 @@ void main()
 	ModDrawCharacter(3, 18, "sprite/ki_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/je1", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300001", 256, TRUE);
 	OutputLine(NULL, "「お魎さんのお陰で、こんとな素ッ晴らしい賞品になったね。",
 		   NULL, "\"Graças a você, temos prêmios maravilhosos este ano, Oryou-san.", Line_WaitForInput);
@@ -1293,7 +1293,7 @@ void main()
 		   NULL, " ...Sinceramente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300004", 256, TRUE);
 	OutputLine(NULL, "「まぁまぁそう言わないで…。",
 		   NULL, "\"Vamos, vamos, não diga isso...", Line_WaitForInput);
@@ -1330,7 +1330,7 @@ void main()
 		   NULL, "Ele parecia chateado, então Kimiyoshi assumiu que alguém provavelmente havia se ferido em um acidente.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300006", 256, TRUE);
 	OutputLine(NULL, "「どうしたの牧野さん。",
 		   NULL, "\"O que houve, Makino-san?", Line_WaitForInput);
@@ -1358,7 +1358,7 @@ void main()
 	ModDrawCharacter(3, 18, "sprite/ki_komaru_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/je1", "maskleft", 1, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300008", 256, TRUE);
 	OutputLine(NULL, "「……お魎さん。",
 		   NULL, "\"...Oryou-san.", Line_WaitForInput);
@@ -1377,7 +1377,7 @@ void main()
 		   NULL, "Kimiyoshi sussurrou para ela as mesmas palavras que Makino tinha lhe dito.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300010", 256, TRUE);
 	OutputLine(NULL, "「……………いやはや。",
 		   NULL, "\"......Oh, nossa.", Line_WaitForInput);
@@ -1396,7 +1396,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300012", 256, TRUE);
 	OutputLine(NULL, "「あははははは…。",
 		   NULL, "\"Ahahahaha...", Line_WaitForInput);
@@ -1416,7 +1416,7 @@ void main()
 
 	PlaySE( 0, "s_suzu", 56, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300014", 256, TRUE);
 	OutputLine(NULL, "「警察が今、身元を調べてるらしい。",
 		   NULL, "\"A polícia está tentando identificar o corpo.", Line_WaitForInput);
@@ -1431,7 +1431,7 @@ void main()
 		   NULL, "\"...Bem, está muito claro quem foi a vítima...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s06/18/153300016", 256, TRUE);
 	OutputLine(NULL, "「え？",
 		   NULL, "\"Hã?", Line_WaitForInput);
