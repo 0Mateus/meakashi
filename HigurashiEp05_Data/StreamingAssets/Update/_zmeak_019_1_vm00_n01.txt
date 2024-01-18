@@ -7,16 +7,16 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601659", 256, TRUE);
 	OutputLine(NULL, "「って言うか……、だって私、ずっと興宮！",
-		   NULL, "\"But... I've been living in Okinomiya all my life!", Line_WaitForInput);
+		   NULL, "\"Mas... eu estive vivendo em Okinomiya durante toda a minha vida!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601660", 256, TRUE);
 	OutputLine(NULL, "　鬼婆に嫌われて以降、雛見沢にはほとんど近付いてもいない！",
-		   NULL, " Since the hag hated me, I've barely been to Hinamizawa!", Line_WaitForInput);
+		   NULL, " Já que a vovó me odeia, eu dificilmente ponho os pés em Hinamizawa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601661", 256, TRUE);
 	OutputLine(NULL, "　その上、学園に閉じ込められて過してたんですよ？！",
-		   NULL, " Besides, I was stuck at school.", Line_WaitForInput);
+		   NULL, " Além disso, eu estava presa naquela escola, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601662", 256, TRUE);
 	OutputLine(NULL, "　そんなの私が知るはずないじゃない……！！」",
-		   NULL, " How would I know about any of that?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como eu poderia saber alguma coisa sobre isso?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -28,17 +28,17 @@ void dialog001()
 		   NULL, "\"Hm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601694", 256, TRUE);
 	OutputLine(NULL, "　…あはははは、実は内緒なんだけど…、昨日はお祭りのあとで親族の宴会に巻き込まれちゃってさ。",
-		   NULL, " ...Ahahahaha. Actually, this is a secret, but... after the festival yesterday, I got wrapped up in the party my relatives were having.", Line_WaitForInput);
+		   NULL, " ...Ahahahaha. Na verdade, é um segredo, mas... depois do festival de ontem eu participei de uma festa com os meus parentes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601695", 256, TRUE);
 	OutputLine(NULL, "それで…チョイっと。」",
-		   NULL, " And, well... I had a bit.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E, bem... foi apenas um pouco.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　チョイっと。",
 		   NULL, "Gulp.", Line_WaitForInput);
 	OutputLine(NULL, "コップを傾けるようなジェスチャーをしてやる。",
-		   NULL, " I pretended to drink with an invisible glass.", Line_Normal);
+		   NULL, " Eu simulei beber com um copo invisível.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -48,10 +48,10 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100115", 256, TRUE);
 	OutputLine(NULL, "「ふ、二日酔いかよー？！",
-		   NULL, "\"A-Are you hung over?!", Line_WaitForInput);
+		   NULL, "\"V-Você está de ressaca?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100116", 256, TRUE);
 	OutputLine(NULL, "　お前、歳はいくつだー！！」",
-		   NULL, " How old are you?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quantos anos você tem?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -63,21 +63,21 @@ void dialog002()
 		   NULL, "\"Shion?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100129", 256, TRUE);
 	OutputLine(NULL, "魅音と同じで、今日は二日酔いで寝込んでるんじゃないかと思ったぜ。」",
-		   NULL, " I thought you'd be sleeping in today with a hangover, same as Mion.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu pensei que você estaria de ressaca, dormindo o dia todo, como Mion.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601730", 256, TRUE);
 	OutputLine(NULL, "「え？",
-		   NULL, "\"What?", Line_WaitForInput);
+		   NULL, "\"Hein?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601731", 256, TRUE);
 	OutputLine(NULL, "　お姉、二日酔いなんですか？",
-		   NULL, " My sis had a hangover?", Line_WaitForInput);
+		   NULL, " A Onee teve uma ressaca?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601732", 256, TRUE);
 	OutputLine(NULL, "　あっはははははは！",
 		   NULL, " Ah hahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150601733", 256, TRUE);
 	OutputLine(NULL, "　お姉らし〜〜！」",
-		   NULL, " That's so like her~~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Isso é bem a cara dela~~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
