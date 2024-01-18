@@ -15,7 +15,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月。",
-		   NULL, "June, 1983...", Line_ContinueAfterTyping);
+		   NULL, "Junho de Showa 58 (1983)...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -25,7 +25,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ＸＸ県鹿骨市雛見沢村で、連続失踪事件が発生した。",
-		   NULL, "There has been a series of disappearances in Hinamizawa Village, Shishibone City, XX Prefecture.", Line_ContinueAfterTyping);
+		   NULL, "Houve uma série de desaparecimentos na vila de Hinamizawa, Cidade de Shishibone, Prefeitura de XX.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -34,7 +34,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は、園崎魅音（１Ｘ歳）",
-		   NULL, "The suspect is Mion Sonozaki (1X years old).", Line_ContinueAfterTyping);
+		   NULL, "A suspeita é Sonozaki Mion (1X anos).", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -43,7 +43,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は６月１９日から２１日までの間に雛見沢村住民５人（園崎お魎・園崎詩音・公由喜一郎・古手梨花・北条沙都子）を拉致、監禁して殺害した疑い。",
-		   NULL, "Allegedly, she abducted, imprisoned and killed five Hinamizawan residents (Oryou Sonozaki, Shion Sonozaki, Kiichirou Kimiyoshi, Rika Furude, and Satoko Houjou) between June 19th and the 21st...", Line_ContinueAfterTyping);
+		   NULL, "Alegadamente, ela abduziu cinco residentes de Hinamizawa (Sonozaki Oryou, Sonozaki Shion, Kimiyoshi Kiichirou, Furude Rika e Houjou Satoko) e os prendeu, do dia 19 até 21 de junho...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -52,7 +52,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　事件は当初、情報不足のため初動捜査で遅れをとったが、偶然的、電撃的に解決した。",
-		   NULL, "Preliminary investigations on the incident were delayed at the time due to insufficient evidence, but by chance, the case was solved rather abruptly.", Line_ContinueAfterTyping);
+		   NULL, "As investigações preliminares sobre o incidente sofreram um atraso devido à falta de evidências, mas, devido a um acontecimento fortuito, o caso foi resolvido de modo bastante abrupto", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -63,7 +63,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２２日午前中、園崎邸前を巡回していた警邏車両は邸内よりの悲鳴を聞き、緊急措置として邸内へ突入。",
-		   NULL, "On the morning of the 22nd, a vehicle patrolling the Sonozaki property heard screams from inside and rushed in as an emergency measure.", Line_ContinueAfterTyping);
+		   NULL, "Na manhã do dia 22, um veículo que patrulhava a residência Sonozaki ouviu gritos vindos de lá, e entrou na propriedade como uma medida de emergência.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -73,7 +73,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　失踪中の容疑者の妹（園崎詩音）とクラスメート２名（前原圭一・竜宮礼奈）を保護した。",
-		   NULL, "They secured the suspect's missing younger sister (Shion Sonozaki) and her two missing classmates (Keiichi Maebara and Reina Ryuugu).", Line_ContinueAfterTyping);
+		   NULL, "Foram encontrados a irmã mais nova desaparecida da suspeita (Sonozaki Shion) e seus dois colegas de classe desaparecidos (Maebara Keiichi e Ryuugu Reina).", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -83,7 +83,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は現場より逃走する。",
-		   NULL, "The suspect fled the scene.", Line_ContinueAfterTyping);
+		   NULL, "A suspeita fugiu da cena.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -94,7 +94,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　失踪者たちを殺害したと思われる園崎邸内の離れ地下奥、拷問室からは、失踪者４人（園崎お魎・公由喜一郎・古手梨花・北条沙都子）の毛髪、皮膚片、血液などを発見。",
-		   NULL, "We found hair, pieces of skin, and blood of the four missing people (Oryou Sonozaki, Kiichirou Kimiyoshi, Rika Furude, and Satoko Houjou) in the torture room that was discovered in the basement of the outbuilding on the Sonozaki family property. Supposedly that's where they were killed.", Line_ContinueAfterTyping);
+		   NULL, "Encontramos cabelos, pedaços de pele e sangue das quatro pessoas desaparecidas (Sonozaki Oryou, Kimiyoshi Kiichirou, Furude Rika e Houjou Satoko) na sala de tortura, que foi descoberta no porão da área externa da propriedade da família Sonozaki. Supostamente, eles foram mortos nesse lugar.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -103,7 +103,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　拷問室内で失踪者たちが拷問を受けたものと断定した。",
-		   NULL, "We concluded that the victims were tortured in that torture room.", Line_ContinueAfterTyping);
+		   NULL, "Concluímos que as vítimas foram torturadas nessa sala de tortura.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -112,7 +112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし、その遺体は依然、発見されていない。",
-		   NULL, "However, their remains have still not been found.", Line_ContinueAfterTyping);
+		   NULL, "Entretanto, seus corpos ainda não foram encontrados.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -122,7 +122,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　監禁されていたクラスメートの証言から、監禁現場となった、園崎邸内の離れ地下にあるものと見て捜索を続けているが、容疑者の逃亡ルート共々、発見には未だ至っていない。",
-		   NULL, "According to one of her imprisoned classmates' advice, the bodies should be somewhere in the basement of the outbuilding where the torture took place. However, nothing has been uncovered as of yet, including the escape route the suspect took.", Line_ContinueAfterTyping);
+		   NULL, "De acordo com o relato de um de seus colegas que estava confinado no porão, os corpos devem estar em algum lugar no porão onde a tortura ocorreu. No entanto, nada foi descoberto ainda, incluindo a rota de fuga que a suspeita usou.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -131,7 +131,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、ほのめかしたとされる近年の連続怪死事件への関与も捜査が続けられているが、",
-		   NULL, "In addition, investigations continue regarding any possible connection to the series of mysterious deaths in recent years...", Line_ContinueAfterTyping);
+		   NULL, "Além disso, continuam as investigações referentes a qualquer conexão possível com a série de mortes misteriosas dos últimos anos...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -140,7 +140,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎魅音が直接、または間接的に関わったという証拠は発見されていない。",
-		   NULL, "...But no evidence that Mion Sonozaki was involved, either directly or indirectly, has been found.", Line_ContinueAfterTyping);
+		   NULL, "...Mas, nenhuma evidência de que Sonozaki Mion esteve envolvida, direta ou indiretamente, foi encontrada.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -150,7 +150,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　事件の動機には今もなお不明な点が多く、また、園崎家、雛見沢村住民の極度の非協力もあり、その解明には膨大な時間を要することが予想される。",
-		   NULL, "There are still many unclear points as to the motive behind the incident, and as those of the Sonozaki family and the residents of Hinamizawa have been extremely uncooperative in assisting us, we expect to require a long time to clarify them.", Line_ContinueAfterTyping);
+		   NULL, "Ainda há muitos pontos obscuros quanto ao motivo por trás do incidente, e como os membros da família Sonozaki e os moradores de Hinamizawa foram muito pouco cooperativos em nos ajudar, é provável que levemos muito tempo para clarificá-los.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -160,7 +160,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地域に詳しい地元警察の見解では、雛見沢村内の信仰に対する冒涜行為を巡る、内部懲罰、リンチ事件ではないかと見ている。",
-		   NULL, "The opinion of a local officer knowledgeable about the region is that this may have been a lynching—an internal form of punishing sacrilegious acts carried out against the beliefs of Hinamizawa Village.", Line_ContinueAfterTyping);
+		   NULL, "A opinião de um policial local com conhecimento sobre a região é de que isso pode ter sido um linchamento - uma forma interna de punir atos sacrílegos realizados contra as crenças da vila de Hinamizawa.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -169,7 +169,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地域性に根ざした特殊な事件であることは間違いなく、県警本部は慎重な捜査を命じた。",
-		   NULL, "It is clear that these incidents are particularly rooted in this region, and the prefectural police department has ordered a cautious investigation.", Line_ContinueAfterTyping);
+		   NULL, "Está claro que esses incidentes estão particularmente enraizados nesta região. O departamento de polícia da Prefeitura ordenou uma investigação cautelosa.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -179,7 +179,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者の妹で、もっとも監禁期間の長いと思われる失踪者（園崎詩音）から重要な手掛かりを得られるのではないかと期待したが、",
-		   NULL, "We anticipated gaining valuable clues from the missing person believed to have been imprisoned for the longest time, Shion Sonozaki—the suspect's younger sister...", Line_ContinueAfterTyping);
+		   NULL, "Nós acreditávamos que poderíamos obter pistas valiosas da pessoa que se acredita ter ficado confinada por mais tempo entre os desaparecidos, Sonozaki Shion - a irmã mais nova da suspeita...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -188,7 +188,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　事件後、精神に重度の後遺症を患い、今日まで正常な事情聴取に応じられる精神状態にない。",
-		   NULL, "However, the incident has left such serious mental aftereffects that she has not been in a state of mind to properly answer any questions about what she knows.", Line_ContinueAfterTyping);
+		   NULL, "Entretanto, o incidente lhe deixou com severos traumas mentais, de modo que no momento ela não se encontra em condições de responder qualquer pergunta a respeito do que ela sabe.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -197,7 +197,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　精神科医は、ショックによる一過性のものと診断したが、その回復の目処は今日でも立っていない。",
-		   NULL, "The psychiatrist concluded that she is in a temporary state of shock, but as of today, she has yet to show any improvement.", Line_ContinueAfterTyping);
+		   NULL, "O psiquiatra concluiu que ela está em um estado temporário de choque, mas, até agora, ela não mostrou qualquer sinal de melhora.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
