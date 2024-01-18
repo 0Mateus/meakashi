@@ -10,15 +10,15 @@ void dialog000()
 		   NULL, "\"Mm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100138", 256, TRUE);
 	OutputLine(NULL, "　少しふらふらしてないか？",
-		   NULL, " You're a little unsteady.", Line_WaitForInput);
+		   NULL, " Você parece um pouco acabada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100139", 256, TRUE);
 	OutputLine(NULL, "　お前も昨夜は寝不足だろ。",
-		   NULL, " You didn't get much sleep last night either, did you?", Line_WaitForInput);
+		   NULL, " Você não conseguiu dormir bem na noite passada, hein?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100140", 256, TRUE);
 	OutputLine(NULL, "隠しても無駄だぞー。",
-		   NULL, " Don't try to hide it!", Line_WaitForInput);
+		   NULL, " Não tente esconder!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100141", 256, TRUE);
 	OutputLine(NULL, "で、学校を早退したに違いない。」",
-		   NULL, " You definitely went home from school early.\"", Line_Normal);
+		   NULL, " Você definitivamente voltou mais cedo da escola para casa.\"", Line_Normal);
 	ClearMessage();
 }
