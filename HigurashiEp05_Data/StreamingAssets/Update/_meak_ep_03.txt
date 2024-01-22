@@ -20,7 +20,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100451", 256, TRUE);
 	OutputLine(NULL, "「よっしゃーお昼だお昼！！",
-		   NULL, "\"Certo, é hora do lanche!!", Line_WaitForInput);
+		   NULL, "\"Certo, é hora do almoço!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100452", 256, TRUE);
 	OutputLine(NULL, "　そらレナ、机をくっ付けろ！」",
 		   NULL, " Ei, Rena, junte nossas carteiras!\"", GetGlobalFlag(GLinemodeSp));
@@ -46,7 +46,7 @@ void main()
 		   NULL, "\"Parece bom!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300473", 256, TRUE);
 	OutputLine(NULL, "おじさんもぜひいただくよ。",
-		   NULL, " Oji-san vai se servir algumas, então.", Line_WaitForInput);
+		   NULL, " Oji-san vai se servir de algumas, então.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300474", 256, TRUE);
 	OutputLine(NULL, "ほら梨花ちゃん、机、机。」",
 		   NULL, " Rika-chan, traga sua carteira aqui.\"", Line_Normal);
@@ -95,7 +95,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602746", 256, TRUE);
 	OutputLine(NULL, "明らかに野菜不足の沙都子には特別にカボチャ弁当を用意させてもらいました。」",
-		   NULL, "Você tem que comer alguns vegetais, por isso eu preparei um pouco de abóbora para você.\"", Line_Normal);
+		   NULL, "Você tem de comer alguns vegetais, por isso eu preparei um pouco de abóbora para você.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -123,7 +123,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602747", 256, TRUE);
 	OutputLine(NULL, "「ほら、そのカボチャ嫌いは駄目です！",
-		   NULL, "\"Vamos, não seja tão exigente quanto à sua comida", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Vamos, não seja tão exigente quanto à sua comida!", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(2, 6, "sprite/si3_wink_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
@@ -140,7 +140,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602750", 256, TRUE);
 	OutputLine(NULL, "私の目の黒い内は偏食は認めないのでその覚悟でお願いします。",
-		   NULL, "Enquanto eu estiver viva, não vou deixar você ter uma dieta desequilibrada. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Enquanto eu viver, não vou deixar você ter uma dieta desequilibrada. ", GetGlobalFlag(GLinemodeSp));
 	DrawScene("white", 800 );
 	ModDrawCharacter(2, 6, "sprite/si3_wink_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/gk1", 400 );
@@ -148,7 +148,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602751", 256, TRUE);
 	OutputLine(NULL, "ほらほらみんなもどうぞどうぞ、ホコホコのカボチャって甘くて美味しいんですよー？」",
-		   NULL, "Aqui, pessoal, comam um pouco. Abóbora cozida no vapor é muito gostoso.\"", Line_Normal);
+		   NULL, "Aqui, pessoal, comam um pouco. Abóbora cozida no vapor é deliciosa.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 5, "sprite/ri1_warai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -159,7 +159,7 @@ void main()
 		   NULL, "\"......Munch, munch.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s06/05/150500069", 256, TRUE);
 	OutputLine(NULL, "沙都子、これなら甘くておいしいのですよ？」",
-		   NULL, " Satoko, isto é realmente doce.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Satoko, isto realmente é doce.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -197,7 +197,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300475", 256, TRUE);
 	OutputLine(NULL, "「そら行った行った！",
-		   NULL, "\"Apenas prove-a!!", Line_WaitForInput);
+		   NULL, "\"Apenas prove-a!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300476", 256, TRUE);
 	OutputLine(NULL, "　一口にがばっと行ってみなよ！」",
 		   NULL, " Tome um pedaço!\"", GetGlobalFlag(GLinemodeSp));
@@ -213,7 +213,7 @@ void main()
 		   NULL, "\"Então?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s06/02/150200237", 256, TRUE);
 	OutputLine(NULL, "　おいしいでしょ？」",
-		   NULL, " Não é gostoso?\"", Line_Normal);
+		   NULL, " Não é bom?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -237,7 +237,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602752", 256, TRUE);
 	OutputLine(NULL, "「当り前です。",
-		   NULL, "\"Claro que não é.", Line_WaitForInput);
+		   NULL, "\"Claro que não.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602753", 256, TRUE);
 	OutputLine(NULL, "沙都子がカボチャ嫌いを克服できるように日夜研究してますので。",
 		   NULL, " Tenho trabalhado duro todos os dias para fazer você superar sua aversão a abóboras.", GetGlobalFlag(GLinemodeSp));
@@ -248,7 +248,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602754", 256, TRUE);
 	OutputLine(NULL, "さて、この調子で今年中に、ナス、",
-		   NULL, "Então, que tal você tentar superar seu medo de berinjelas,", Line_Continue);
+		   NULL, "Então, que tal você superar seu medo de berinjelas,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -279,7 +279,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602755", 256, TRUE);
 	OutputLine(NULL, "「だぁめです。",
-		   NULL, "\"Ei, não aja assim!", Line_WaitForInput);
+		   NULL, "\"Não aja assim!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602756", 256, TRUE);
 	OutputLine(NULL, "悟史くんから頼まれている以上、健康管理は私の担当です。",
 		   NULL, " Eu sou responsável por cuidar de sua saúde, já que Satoshi-kun me pediu para tomar conta de você.", Line_WaitForInput);
