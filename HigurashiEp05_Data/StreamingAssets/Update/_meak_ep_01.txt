@@ -52,7 +52,8 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　事件は当初、情報不足のため初動捜査で遅れをとったが、偶然的、電撃的に解決した。",
-		   NULL, "As investigações preliminares sobre o incidente sofreram um atraso devido à falta de evidências, mas, devido a um acontecimento fortuito, o caso foi resolvido de modo bastante abrupto", Line_ContinueAfterTyping);
+		   //NULL, "As investigações preliminares sobre o incidente sofreram um atraso devido à insuficiência de evidências, mas, devido a um acontecimento fortuito, o caso foi resolvido de modo bastante abrupto.", Line_ContinueAfterTyping);
+		   NULL, "As investigações preliminares sobre o incidente sofreram um atraso devido à falta de evidências, mas, devido a um acontecimento fortuito, o caso foi resolvido de modo bastante abrupto.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -150,7 +151,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　事件の動機には今もなお不明な点が多く、また、園崎家、雛見沢村住民の極度の非協力もあり、その解明には膨大な時間を要することが予想される。",
-		   NULL, "Ainda há muitos pontos obscuros quanto ao motivo por trás do incidente, e como os membros da família Sonozaki e os moradores de Hinamizawa foram muito pouco cooperativos em nos ajudar, é provável que levemos muito tempo para clarificá-los.", Line_ContinueAfterTyping);
+		   NULL, "Ainda há muitos pontos obscuros quanto ao motivo por trás do incidente, e como os membros da família Sonozaki e os moradores de Hinamizawa foram muito pouco cooperativos em nos ajudar, é provável que levemos muito tempo para clarificá-lo.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -160,7 +161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地域に詳しい地元警察の見解では、雛見沢村内の信仰に対する冒涜行為を巡る、内部懲罰、リンチ事件ではないかと見ている。",
-		   NULL, "A opinião de um policial local com conhecimento sobre a região é de que isso pode ter sido um linchamento - uma forma interna de punir atos sacrílegos realizados contra as crenças da vila de Hinamizawa.", Line_ContinueAfterTyping);
+		   NULL, "A opinião de um policial local com conhecimento sobre a região é de que isso pode ter sido um linchamento—uma forma interna de punir atos sacrílegos realizados contra as crenças da vila de Hinamizawa.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -179,7 +180,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者の妹で、もっとも監禁期間の長いと思われる失踪者（園崎詩音）から重要な手掛かりを得られるのではないかと期待したが、",
-		   NULL, "Nós acreditávamos que poderíamos obter pistas valiosas da pessoa que se acredita ter ficado confinada por mais tempo entre os desaparecidos, Sonozaki Shion - a irmã mais nova da suspeita...", Line_ContinueAfterTyping);
+		   NULL, "Nós acreditávamos que poderíamos obter pistas valiosas da pessoa que se acredita ter ficado confinada por mais tempo entre os desaparecidos, Sonozaki Shion—a irmã mais nova da suspeita...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -197,6 +198,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　精神科医は、ショックによる一過性のものと診断したが、その回復の目処は今日でも立っていない。",
+		   //NULL, "O psiquiatra concluiu que ela está em um estado temporário de choque, mas, até agora, ela ainda não mostrou qualquer melhoria.", Line_ContinueAfterTyping);
 		   NULL, "O psiquiatra concluiu que ela está em um estado temporário de choque, mas, até agora, ela não mostrou qualquer sinal de melhora.", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
