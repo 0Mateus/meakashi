@@ -43,7 +43,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は６月１９日から２１日までの間に雛見沢村住民５人（園崎お魎・園崎詩音・公由喜一郎・古手梨花・北条沙都子）を拉致、監禁して殺害した疑い。",
-		   NULL, "Alegadamente, ela abduziu cinco residentes de Hinamizawa (Sonozaki Oryou, Sonozaki Shion, Kimiyoshi Kiichirou, Furude Rika e Houjou Satoko) e os prendeu, do dia 19 até 21 de junho...", Line_ContinueAfterTyping);
+		   NULL, "Alegadamente, ela abduziu, aprisionou e matou cinco residentes de Hinamizawa (Sonozaki Oryou, Sonozaki Shion, Kimiyoshi Kiichirou, Furude Rika e Houjou Satoko) entre os dias 19 e 21 de junho...", Line_ContinueAfterTyping);
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
