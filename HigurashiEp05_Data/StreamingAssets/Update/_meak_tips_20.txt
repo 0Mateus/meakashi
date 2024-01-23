@@ -12,223 +12,223 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の復讐劇は、この時点では、祟りシステムの破壊で成立すると考えられていた。",
-		   NULL, "At this point, I believe that I can complete my revenge by destroying the curse system entirely.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Neste ponto, acredito que posso completar a minha vingança destruindo completamente o sistema da maldição.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すなわち、システムの最上位者である御三家頭首３人と、",
-		   NULL, "That means that I have to eliminate the heads of all the Three Families,", Line_WaitForInput);
+		   NULL, "Isso significa que eu tenho que eliminar os líderes das Três Famílias,", Line_WaitForInput);
 	OutputLine(NULL, "頭首代行の詩音、",
-		   NULL, " the successor Shion,", Line_WaitForInput);
+		   NULL, " a sucessora Shion,", Line_WaitForInput);
 	OutputLine(NULL, "この４人と、圭一に食いついてくる「執行者」の抹殺。",
-		   NULL, " and the assassins who are after Keiichi.", Line_Normal);
+		   NULL, " e os assassinos que estão atrás de Keiichi.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一はあれだけ無防備な生活を続けているにもかかわらず、今日まで何の攻撃も受けていない。",
-		   NULL, "Although Keiichi is completely unguarded, he hasn't been attacked so far.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Apesar de Keiichi estar completamente desprotegido, ele não foi atacado até agora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私があれほど祭具殿侵入者の１人と喧伝したにもかかわらずだ。",
-		   NULL, "Even though I told everybody that he was one of the trespassers.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo eu tendo contado para todos que ele foi uma das pessoas que invadiram o saiguden.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろ、古手梨花の襲撃を受けた私の方が攻撃を受けているくらい。",
-		   NULL, "In fact, it's me who's being attacked. Rika Furude attacked me.", Line_Normal);
+		   NULL, "Na verdade, sou eu quem está sendo atacada. Furude Rika me atacou.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 	DrawSceneWithMask("black", "maskright", 7, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が暴いたとおりなら、圭一という名の祭具殿侵犯者は非常に魅力的なエサのはず。",
-		   NULL, "According to my theory, Keiichi should make for very attractive bait.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De acordo com a minha teoria, Keiichi deveria ser uma isca muito atraente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがそのエサに誰も食いつかず、",
-		   NULL, "But nobody has done anything to harm him.", Line_WaitForInput);
+		   NULL, "Mas ninguém mordeu essa isca.", Line_WaitForInput);
 	OutputLine(NULL, "古手梨花とトラブルを起こした私の方が攻撃されている以上、",
-		   NULL, " Since Rika Furude attacked me,", Line_WaitForInput);
+		   NULL, " Já que Furude Rika me atacou,", Line_WaitForInput);
 	OutputLine(NULL, "“祭具殿を侵すことよりも、古手家と対立する方がタブー”という式が書けてしまう。",
-		   NULL, " it might be that opposing the Furude family is a greater taboo than trespassing in the ritual storehouse.", Line_Normal);
+		   NULL, " talvez se opor à família Furude fosse um tabu maior do que entrar no saiguden.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、祭具殿侵犯を大した罪だと思っていなかった。",
-		   NULL, "Rika Furude had said that intrusion wasn't a big deal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika tinha dito que a invasão não era um grande negócio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一を見逃すつもりのようだった。",
-		   NULL, "She sounded like she was going to let Keiichi walk.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela soava como se pretendesse perdoar Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを私が咎めたら、その日の夕方には「古手梨花」という刺客が襲ってきた。",
-		   NULL, "And after I accused her of that, 'Rika Furude' attacked me that very night.", Line_Normal);
+		   NULL, "E depois que eu a acusei, 'Furude Rika' me atacou na noite do mesmo dia.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　勢力は、別系統で２派あるということ？",
-		   NULL, "Are there two different factions?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Haveriam duas facções diferentes?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野さんたち、祭具殿侵犯者を祟る「祟りシステム」と、",
-		   NULL, "Does one handle trespassers in the ritual storehouse,", Line_WaitForInput);
+		   NULL, "Uma cuida do saiguden e do 'sistema da maldição',", Line_WaitForInput);
 	OutputLine(NULL, "古手家の教義による別系統での「祟りシステム」があるということ？",
-		   NULL, " while the other protects the religious doctrines of the Furude family?", Line_Normal);
+		   NULL, " enquanto a outra protege as doutrinas religiosas da família Furude?", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　矛盾がある。",
-		   NULL, "No, that doesn't make sense.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não, isso não faz sentido.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんの死に方は間違いなく古手家のあの注射によるもの。",
-		   NULL, "Tomitake-san's death must have been caused by the Furude family's injections.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A morte de Tomitake-san deve ter sido causada pelas injeções da família Furude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花が自らその効能を示して見せた、「自ら首を掻き破る」注射によるもの。",
-		   NULL, "Rika showed me the effect of it herself, clawing out her own throat and dying like that.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika me mostrou o efeito, arranhando sua própria garganta e morrendo em decorrência.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも古手家のシステムでは富竹さんは祟りの対象にはなっていない。",
-		   NULL, "But Tomitake-san shouldn't have been subject to the curse, at least according to the system of the Furude family.", Line_Normal);
+		   NULL, "Mas Tomitake-san não deveria estar sujeito à maldição, pelo menos de acordo com o sistema da família Furude.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一がどうして襲われないのかもわからない。",
-		   NULL, "I don't understand why Keiichi hasn't been attacked.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não entendo por que Keiichi não foi atacado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野さんと違って免罪される要因があるのか？",
-		   NULL, "Did he have something exempting him from the curse, unlike Takano-san?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele tinha algo que o deixava livre da maldição, diferente de Takano-san?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば北条沙都子だけが北条家の祟りから免罪されていたように？",
-		   NULL, "Just like how only Satoko Houjou was spared?", Line_Normal);
+		   NULL, "Do mesmo jeito que apenas Houjou Satoko foi poupada?", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確かに圭一も古手梨花の友人だ。",
-		   NULL, "Keiichi is a friend of Rika Furude's.", Line_Normal);
+		   NULL, "Keiichi é amigo de Furude Rika.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ということはつまり、…古手梨花の親しい人間は祟りの対象にならない？",
-		   NULL, "So... does that mean that if you were close to her, you wouldn't be cursed?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então... isso significa que se você fosse próximo a ela não seria amaldiçoado?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は「祟りシステム」より遥かに優先する上位者ということ？？",
-		   NULL, "Was she more important than the whole system?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela era mais importante que todo o sistema?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなはずはない。",
-		   NULL, "That's impossible.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Impossível.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最上位者は鬼婆だ。",
-		   NULL, "The hag was at the top of the curse system.", Line_WaitForInput);
+		   NULL, "A vovó estava no topo do sistema da maldição.", Line_WaitForInput);
 	OutputLine(NULL, "その上に梨花がいたわけがない。",
-		   NULL, " Rika couldn't have been higher up than her.", Line_Normal);
+		   NULL, " Rika não poderia estar em uma posição maior do que a dela.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぐしゃぐしゃぐしゃ",
-		   NULL, "Scribble scribble.", Line_Normal);
+		   NULL, "*Rabisca rabisca*.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祟りの対象の定義が複数あるのか。",
-		   NULL, "Are there multiple ways to determine the subject of the curse?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Será que há várias maneiras de determinar o objeto da maldição?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　定義の数だけ祟りの執行機構があって、それぞれ独自に祟りを下しているのか。",
-		   NULL, "Are there as many curse execution groups as there are subjects, and do they all work separately?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Será que existem tantos grupos de execução da maldição quanto objetos dela, e todos eles trabalham separadamente?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ああもうめちゃくちゃだ。",
-		   NULL, "Ah, it's a mess.", Line_WaitForInput);
+		   NULL, "Ah, que confusão.", Line_WaitForInput);
 	OutputLine(NULL, "私の推理が噛み合わない。",
-		   NULL, " None of my theories add up.", Line_Normal);
+		   NULL, " Nenhuma das minhas teorias adiciona nada.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の推理がめちゃめちゃなら、私の復讐劇のターゲットにズレが生じる。",
-		   NULL, "If I mess up my reasoning, I might make the wrong person the target of my revenge.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu arruinar meu raciocínio, eu posso acabar escolhendo a pessoa errada como o o alvo da minha vingança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もはや、誰が仇なのか、どういう経緯で悟史くんが消されたのか、理解できない。",
-		   NULL, "I don't understand who the enemy is, or how Satoshi-kun was made to disappear.", Line_Normal);
+		   NULL, "Eu não entendo quem é o inimigo, ou como ele fez Satoshi-kun desaparecer.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 	DrawScene("background/nort", 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼婆は雛見沢の闇をどこまで知っていたのか。",
-		   NULL, "How much did the hag know?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O quanto a vovó sabia?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　初手のミスが痛すぎる。",
-		   NULL, "That really was a huge loss.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi realmente uma grande perda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あいつに今聞きたいことが山ほどある。",
-		   NULL, "I have so many things I wanted to ask her.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Há tantas coisas que eu gostaria de lhe perguntar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それをショック死させてしまうとは…。",
-		   NULL, "...I killed her by accident...", Line_WaitForInput);
+		   NULL, "...Eu a matei por acidente...", Line_WaitForInput);
 	OutputLine(NULL, "痛恨の痛手だ。",
-		   NULL, " Shit.", Line_Normal);
+		   NULL, " Droga.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はどこかですでに、復讐劇に失敗している。",
-		   NULL, "In that respect, I've already failed in my revenge.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quanto a isso, eu já falhei na minha vingança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 16 );
@@ -237,24 +237,24 @@ void main()
 		   NULL, "............", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "雛見沢の闇は、",
-		   NULL, "The underside of Hinamizawa", Line_ContinueAfterTyping);
+		   NULL, "Os subterrâneos de Hinamizawa", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 700 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "深過ぎる。",
-		   NULL, " really does run too deep.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " realmente correm muito profundamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぐしゃぐしゃぐしゃ",
-		   NULL, "Scribble scribble.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "*Rabisca rabisca*.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（このページ全体がぐしゃぐしゃの斜線で消されている）",
-		   NULL, "(The whole page is blacked out with scribbles.)", Line_Normal);
+		   NULL, "(A página inteira está obscurecida por rabiscos.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	Wait( 1000 );
