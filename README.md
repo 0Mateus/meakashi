@@ -7,3 +7,5 @@ Tradução de _Higurashi When They Cry Hou_ da _Higurashi Eternal_ adaptada para
 [Higurashi Eternal](https://higurashieternal.wordpress.com/) - Tradução do jogo.
 
 [lunhas](https://www.youtube.com/@lunhasz) - Tradução do monólogo.
+
+[Johnzinzzz](https://twitter.com/Johnzinzzz) - Tradução do Bad Ending.
