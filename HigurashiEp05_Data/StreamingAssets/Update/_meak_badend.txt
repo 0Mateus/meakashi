@@ -370,7 +370,7 @@ void main()
 //rそして両親がいくら断っても、毎日慰謝料と称して百万円単位の札束をいくつも積んでいく。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして両親がいくら断っても、毎日慰謝料と称して百万円単位の札束をいくつも積んでいく。",
-			NULL, "E não importava o quanto meus pais recusassem, eles continuavam amontoando notas bancárias que valiam milhôes de ienes, como uma compensação.", GetGlobalFlag(GLinemodeSp));
+			NULL, "E não importava o quanto meus pais recusassem, eles continuavam amontoando notas bancárias que valiam milhões de ienes, como uma compensação.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //rその額が日々積み重なり、ある程度の額が貯まったある日、…今度はそこに、手紙の入った封筒も添えられていた。
@@ -412,10 +412,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/330100409", 256, TRUE);
 	OutputLine(NULL, "「来月の終わり。",
-			NULL, "\"No fim do próximo mês.", Line_WaitForInput);
+			NULL, "\"No final do próximo mês.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/330100410", 256, TRUE);
 	OutputLine(NULL, "雛見沢には結局、…半年もいつかなかったことになるな」",
-			NULL, " No fim, eu não consegui ficar em Hinamizawa por nem mesmo seis meses.\"", GetGlobalFlag(GLinemodeSp));
+			NULL, " No fim, eu não consegui ficar por nem mesmo seis meses em Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //レナrvS06/02/330200377.「…寂しくなるね。kvS06/02/330200378.きっと魅ぃちゃんも、悲しむよ…？」
