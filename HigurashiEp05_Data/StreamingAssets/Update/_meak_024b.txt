@@ -483,7 +483,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602596", 256, TRUE);
 	OutputLine(NULL, "……鬼はそれで治まり、…私は、その鬼はどこかへ行ってしまったんだと思い込んでいた。",
-		   NULL, "...O demônio ficou quieto... e eu pensei que ele tinha embora, para outro lugar.", Line_WaitForInput);
+		   NULL, "...O demônio ficou quieto... e eu pensei que ele tinha ido embora, para outro lugar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602597", 256, TRUE);
 	OutputLine(NULL, "……でも、本当は違った。",
 		   NULL, " ...Mas, eu realmente estava errada.", Line_WaitForInput);
