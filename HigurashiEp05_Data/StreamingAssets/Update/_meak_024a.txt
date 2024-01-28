@@ -124,7 +124,7 @@ void main()
 	OutputLine(NULL, "　…どうしよう。",
 		   NULL, "Droga.", Line_WaitForInput);
 	OutputLine(NULL, "詩音の岩牢まで行ったらゲームオーバーってさっき決めた。",
-		   NULL, " Eu tinha decidido que seria tarde de mais uma vez que chegássemos à cela de Shion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu tinha decidido que seria tarde demais uma vez que chegássemos à cela de Shion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //rだからもう名前当てゲームは終了している。
@@ -554,7 +554,7 @@ void main()
 //r喉が痒い。ひじの裏も、手首も、身体の節々全てが痒くて、ざわざわして…わけもなく、いらいらする。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "喉が痒い。ひじの裏も、手首も、身体の節々全てが痒くて、ざわざわして…わけもなく、いらいらする。",
-			NULL, "Minha garganta começou a coçar. Os meus cotovelos, meus pulsos e todo o resto do meu corpo começou a formigar mais e mais...eu me sentia irracionalmente inquieta.", GetGlobalFlag(GLinemodeSp));
+			NULL, "Minha garganta começou a coçar. Os meus cotovelos, meus pulsos e todas as outras articulações do meu corpo começaram a formigar mais e mais... eu me sentia irracionalmente inquieta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //rそして、そのいらいらとむかつきが大きくなればなるほど、…この、ぎゃあぎゃあと私のそばでわめきたてる存在がわずらわしく、疎ましく、…今すぐにでも殺したいほどに憎たらしく思えてきた。
@@ -784,7 +784,7 @@ void main()
 //rでも、その狂気はそこまでで、噴出までには至らなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも、その狂気はそこまでで、噴出までには至らなかった。",
-			NULL, "Mas aquele era o limite da minha insanidade. Eu nunca o quebraria.", GetGlobalFlag(GLinemodeSp));
+			NULL, "Mas aquele era o limite da minha insanidade. Eu nunca o ultrapassaria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //r時間が私を癒し、……悟史くんの思い出を、やわらかく包んで、胸の内にそっと、しまってくれたんだ。
