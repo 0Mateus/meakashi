@@ -2331,7 +2331,7 @@ void main()
 	OutputLine(NULL, "　ひとつひとつ掘り起こされたら、間違いなく年少送りは免れない。",
 		   NULL, "Se as autoridades descobrissem o que eu fiz, eu não escaparia de ir para o aconselhamento de menores...", Line_WaitForInput);
 	OutputLine(NULL, "……というか、雛見沢の人間の半分くらいは刑務所送りになるかもしれないな。",
-		   NULL, " ...Bem, pelo menos metade das pessoas em Hinamizawa estaria na prisão.", Line_Normal);
+		   NULL, " ...Bem, pelo menos metade das pessoas em Hinamizawa estariam na prisão.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
