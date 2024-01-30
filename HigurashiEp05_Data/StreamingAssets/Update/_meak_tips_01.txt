@@ -196,7 +196,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手が届きにくい場所、手で触れるには肩の関節を痛めて歯を食いしばって、やっと指先が触れる程度の場所もある。",
-		   NULL, "Há partes das minhas costas que eu tenho que fazer um esforço para alcançar, apertando meus dentes e rachando minhas articulações, para que as pontas dos meus dedos mal possam tocá-los.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Há partes das minhas costas que eu tenho que fazer um esforço para alcançar, apertando meus dentes e rachando minhas articulações, para que as pontas dos meus dedos mal possam tocá-las.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
