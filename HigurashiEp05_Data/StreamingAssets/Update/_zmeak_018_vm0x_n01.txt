@@ -6,7 +6,7 @@ void dialog000()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私は気持ちよく眠りこけてしまって、……ここに泊まってしまったが、",
-		   NULL, "Eu tinha acabado ficado um pouco sonolenta, então decidi passar a noite aqui.", Line_WaitForInput);
+		   NULL, "Eu tinha acabado ficando um pouco sonolenta, então decidi passar a noite aqui.", Line_WaitForInput);
 	OutputLine(NULL, "それが本当に疲れだけによるものなのか、",
 		   NULL, " Foi apenas porque eu estava cansada,", Line_WaitForInput);
 	OutputLine(NULL, "……何か料理に睡眠薬が混入されていたのか分からない。",
