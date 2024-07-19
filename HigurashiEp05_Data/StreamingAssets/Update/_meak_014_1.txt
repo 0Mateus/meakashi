@@ -2975,7 +2975,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悟史くんも、あの暗緑色の沼の底に…沈められていると…？",
-		   NULL, "Isso quer dizer que Satoshi-kun tam´bem está no fundo daquele pântano verde-escuro...?", Line_Normal);
+		   NULL, "Isso quer dizer que Satoshi-kun também está no fundo daquele pântano verde-escuro...?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
