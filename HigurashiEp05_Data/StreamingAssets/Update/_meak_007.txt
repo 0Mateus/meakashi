@@ -321,21 +321,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/shion4028", 256, TRUE);
-	OutputLine(NULL, "「うん。」",
-		   NULL, "\"Sim...\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	//ModPlayVoiceLS(4, 2, "org/shion4029", 256, TRUE); //;Arquivo de voz errado!!
-	ModPlayVoiceLS(4, 2, "ps3/s06/02/150200003", 256, TRUE);
-	OutputLine(NULL, "「………気分が優れないの？」",
-		   NULL, "\"Você não está se sentindo bem?\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「うん。",
+		   NULL, "\"Sim...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "org/shion4029", 256, TRUE);
+	OutputLine(NULL, "………気分が優れないの？",
+		   NULL, " eu não estou me sentindo bem,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "org/shion4030", 256, TRUE);
-	OutputLine(NULL, "「悪いね。」",
-		   NULL, "\"Me desculpe.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "悪いね。」",
+		   NULL, " me desculpe.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -860,6 +853,7 @@ void main()
 	Wait( 200 ):
 	PlaySE( 4, "wa_027", 56, 64 );
 	DrawBustshot(6, "scene/002a", -500, 160, -790, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 50, TRUE );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 2, "portrait/re2a_hig_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 50, TRUE );}
 	StartShakingOfWindow( 248, 40, 0, 2, 4*2, FALSE );
 	StartShakingOfAllObjects( 248, 40, 0, 2, 4*2, TRUE );
 	Wait( 1000 );
@@ -1197,6 +1191,7 @@ void main()
 
 	DrawScene("black", 500 );
 	DrawScene("scene/204a", 500 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/mob1_01", 500 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150600595", 256, TRUE);
