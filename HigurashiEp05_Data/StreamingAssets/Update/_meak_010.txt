@@ -541,7 +541,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼はそれに満足すると、置いた場所を間違えないように、周囲に目印になるものを探し、注意深くそれらを観察して記憶した。",
-		   NULL, "...Parecendo satisfeito, Satoshi olhou em volta, procurando alguma ponto de referência que o fizesse se lembrar do lugar.", Line_Normal);
+		   NULL, "...Parecendo satisfeito, Satoshi olhou em volta, procurando algum ponto de referência que o fizesse se lembrar do lugar.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 400 );
