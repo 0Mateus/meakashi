@@ -335,7 +335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100001", 256, TRUE);
 	OutputLine(NULL, "「……いい加減にしやがれ。",
-		   NULL, "\"...Já chega, não.", Line_WaitForInput);
+		   NULL, "\"...Já chega, não?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100002", 256, TRUE);
 	OutputLine(NULL, "もう泣いてるじゃねえかよ…！！」",
 		   NULL, " Vocês não conseguem ver que ela está chorando...?!!\"", Line_Normal);
@@ -418,7 +418,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　３人組にまくし立てられてその男の子は、………少しは押されているようだった。",
-		   NULL, "O garoto deus alguns passos para trás, vendo os 3 homens.", Line_Normal);
+		   NULL, "O garoto deu alguns passos para trás, vendo os 3 homens.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
