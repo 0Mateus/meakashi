@@ -27,7 +27,7 @@ void dialog001()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquente</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s06/00/huryob15007", 256, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	// if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); } //;Com essa linha descomentada o jogo só mostra o texto depois do áudio terminar de tocar no modo automático
 	OutputLine(NULL, "「あぁあぁやっぱりＨシーンそのもんよりゃあその前座の脱がすシーンも興奮すっさなぁあぁ…！！」",
 		   NULL, "\"Sim, aqueles strips são melhor que a própria foda...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
