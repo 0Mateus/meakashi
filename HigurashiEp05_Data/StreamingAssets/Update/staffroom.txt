@@ -81,7 +81,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「祟殺し編」における圭一の評価の二極化が、これを如実に物語るかと思います。",
-		   NULL, "Isso é indicado pela forma como as opiniões foram mistas quanto às ações de Keiichi em Tatarigoroshi", Line_Normal);
+		   NULL, "Isso é indicado pela forma como as opiniões foram mistas quanto às ações de Keiichi em Tatarigoroshi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -270,7 +270,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次回シナリオは「罪滅し編」と題しまして、平成１７年夏のコミックマーケット発表を目指しています。",
-		   NULL, "O título do próximo capítulo será 'Tsumihoroboshi'.'", Line_WaitForInput);
+		   NULL, "O título do próximo capítulo será 'Tsumihoroboshi'.", Line_WaitForInput);
 	OutputLine(NULL, "　どうか、ちょっぴりでも楽しみにしていただけたら幸いです。",
 		   NULL, " Sério, eu me sinto bastante sortudo se você se divertiu, mesmo que tenha sido um pouco.", Line_Normal);
 	ClearMessage();
