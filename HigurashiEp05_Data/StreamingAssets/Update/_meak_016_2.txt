@@ -2565,7 +2565,7 @@ void main()
 	OutputLine(NULL, "　…悟史くんの気配もついて来ない。",
 		   NULL, "...Tampouco eu sentia Satoshi-kun...", Line_WaitForInput);
 	OutputLine(NULL, "…でも、寂しいとは思わなかった。",
-		   NULL, " mas, de alguma forma, eu não estava triste por causa isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mas, de alguma forma, eu não estava triste por causa disso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 	PlaySE( 4, "wa_023", 56, 64 );
 
