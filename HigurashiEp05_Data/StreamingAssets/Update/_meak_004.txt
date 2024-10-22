@@ -34,7 +34,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから必然的に、買い物はまとめ買いになる。",
-		   NULL, "Por causa isso, eu naturalmente tenho que comprar coisas em grande quantidade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Por causa disso, eu naturalmente tenho que comprar coisas em grande quantidade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
