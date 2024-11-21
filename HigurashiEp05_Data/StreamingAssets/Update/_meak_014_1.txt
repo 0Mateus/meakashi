@@ -625,7 +625,7 @@ void main()
 	Wait( 4900 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…………………ねぇ？",
-		   NULL, " ...não é mesmo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...não é mesmo? ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -878,7 +878,7 @@ void main()
 		   NULL, "\"Mas eu vou continuar procurando por ele.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s06/11/150700328", 256, TRUE);
 	OutputLine(NULL, "私だけは悟史くんの行方を引き続き捜します。",
-		   NULL, " Só eu vou continuar por Satoshi-kun.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Só eu vou continuar por Satoshi-kun. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
@@ -1081,7 +1081,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s06/11/150700343", 256, TRUE);
 	OutputLine(NULL, "「兎にも角にも、連続怪死事件もこれで４年目です。",
-		   NULL, "\"De qualquer forma, a série de mortes misteriosas aconteceu pela quarta vez.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"De qualquer forma, a série de mortes misteriosas aconteceu pela quarta vez. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
@@ -2277,7 +2277,7 @@ void main()
 		   NULL, "\"Eu dei dicas suficientes para você...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s06/09/150900024", 256, TRUE);
 	OutputLine(NULL, "　二人で存分に語り明かしたかったんだけど、あなたが孤独を好むなら仕方がないしね。",
-		   NULL, " Eu realmente teria apreciado uma conversa com você, mas parece que você prefere ficar sozinha.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu realmente teria apreciado uma conversa com você, mas parece que você prefere ficar sozinha. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
@@ -2811,7 +2811,7 @@ void main()
 		   NULL, "\"Certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s06/09/150900066", 256, TRUE);
 	OutputLine(NULL, "本当は閲覧厳禁の秘密ノートだけれどね。",
-		   NULL, " Eu gostaria de manter isto em segredo...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu gostaria de manter isto em segredo... ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
@@ -2891,7 +2891,7 @@ void main()
 		   NULL, "\"Eu acho que você vai entender uma vez que você ler isso, mas vou lhe dar uma versão resumida...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s06/09/150900069", 256, TRUE);
 	OutputLine(NULL, "…オヤシロさまの祟りとは、簡単に言えばオヤシロさまの怒りのこと。",
-		   NULL, " A maldição de Oyashiro-sama é simplesmente a ira de Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A maldição de Oyashiro-sama é simplesmente a ira de Oyashiro-sama. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s06/09/150900070", 256, TRUE);
@@ -3071,7 +3071,7 @@ void main()
 		   NULL, " mas... acho que vamos ter outra chance de conversar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s06/09/150900094", 256, TRUE);
 	OutputLine(NULL, "そのノートはそれまで預けておくわね。",
-		   NULL, " Vou deixar estas notas com você.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vou deixar estas notas com você. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 

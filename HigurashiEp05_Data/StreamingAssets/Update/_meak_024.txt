@@ -1562,7 +1562,7 @@ void main()
 		   NULL, "\"......Talvez... vocês vivessem próximas demais, e simplesmente deixaram de perceber, mas...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s06/01/150100367", 256, TRUE);
 	OutputLine(NULL, "…きっととても仲のいいことなんだと思う。",
-		   NULL, " eu acho que isso significa que vocês realmente se davam muito bem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " eu acho que isso significa que vocês realmente se davam muito bem. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	ModDrawCharacter(3, 1, "portrait/kei1_def2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 

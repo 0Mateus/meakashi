@@ -978,7 +978,7 @@ void main()
 //r…結局、私が悪い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…結局、私が悪い。",
-			NULL, "...no fim, a culpa foi minha.", GetGlobalFlag(GLinemodeSp));
+			NULL, "...No fim, a culpa foi minha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //r鬼と戦わなかった。鬼を心に住まわせた。そしてあっさりと心を譲り渡した。

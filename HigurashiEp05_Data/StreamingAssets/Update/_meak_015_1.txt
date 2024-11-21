@@ -1528,7 +1528,7 @@ void main()
 		   NULL, " ...Mas, Kei-chan, mesmo vendo que eu era a única que não tinha ganhado uma, não a deu para mim...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300290", 256, TRUE);
 	OutputLine(NULL, "………っく…、……私に、…くれなかった。",
-		   NULL, " hic... ele não a deu para mim...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " hic... ele não a deu para mim... ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s06/03/150300291", 256, TRUE);

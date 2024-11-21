@@ -2920,7 +2920,7 @@ void main()
 		   NULL, "\"Você está certa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s06/11/150700246", 256, TRUE);
 	OutputLine(NULL, "悟史くんは貯金を下ろしたら、迷うことなくおもちゃ屋に向かうでしょう。",
-		   NULL, " Satoshi-kun deve ter ido direto para a loja de brinquedos depois que sacou o dinheiro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Satoshi-kun deve ter ido direto para a loja de brinquedos depois que sacou o dinheiro. ", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	ModFadeOutBGM( 1, 300, FALSE, 0 );
