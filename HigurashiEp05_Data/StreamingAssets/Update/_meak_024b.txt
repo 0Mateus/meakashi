@@ -2151,8 +2151,7 @@ void main()
 		   NULL, "\"Quando chegar ao Paraíso, peça perdão a Satoshi-kun por mim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s06/06/150602721", 256, TRUE);
 	OutputLine(NULL, "……私は天国には行けないから謝れない。」",
-		   //NULL, " Eu não posso fazer isso, já que eu não vou para o Paraíso...\"", GetGlobalFlag(GLinemodeSp));
-		   NULL, " Eu não posso fazer isso, já que eu não vou até lá...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu não posso fazer isso, já que eu não vou para o Paraíso...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
