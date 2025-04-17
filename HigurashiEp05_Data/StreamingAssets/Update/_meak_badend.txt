@@ -875,7 +875,7 @@ void main()
 //rそして魅音の親御さんと、俺の両親を説得するのに数日を使ってから、俺たちは日帰りで新幹線の駅がある大都市の町へ遊びに行くことになった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして魅音の親御さんと、俺の両親を説得するのに数日を使ってから、俺たちは日帰りで新幹線の駅がある大都市の町へ遊びに行くことになった。",
-			NULL, "E depois de mais alguns dias convencendo os meus pais e os de Mion, planejamos ir em um passeio para uma metrópole com uma daquelas estações com trens Shinkansen. (*) Trêm-bala japonês", Line_Normal);
+			NULL, "E depois de mais alguns dias convencendo os meus pais e os de Mion, planejamos ir em um passeio para uma metrópole com uma daquelas estações com trens-bala.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/neki1", 1000 );
