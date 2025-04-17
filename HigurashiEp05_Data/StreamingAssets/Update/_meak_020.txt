@@ -261,8 +261,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…女なら手伝え、というような姑的な意地悪目線を感じ、私は自発的？に手伝った。",
-		   //NULL, "Ela me deu um olhar de censura, tentando me dizer para ajudar. Eu me levantei e fiz isso.", Line_Normal);
-		   NULL, "Ela me deu um olhar desagradável, tentando me dizer para ajudar. Eu me levantei e fiz isso.", Line_Normal);
+		   NULL, "Ela me deu um olhar de censura, tentando me dizer para ajudar. Eu me levantei e fiz isso.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
