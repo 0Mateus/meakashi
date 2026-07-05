@@ -1,4 +1,6 @@
-
-/HigurashiEp05_Data/StreamingAssets/movies
+/HigurashiEp05_Data/StreamingAssets/movies/*.mp4
+/HigurashiEp05_Data/StreamingAssets/movies/*.ogv
 Meakashi_PT-BR.7z
 release.bat
+/HigurashiEp05_Data/*.assets
+/HigurashiEp05_Data/*.languagespecificassets

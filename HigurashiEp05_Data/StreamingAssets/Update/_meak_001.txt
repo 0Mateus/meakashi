@@ -607,7 +607,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後々損をするとわかって、何でこんな無意味な態度を…？",
-		   NULL, "Por quê, mesmo sabendo que vou ser repreendida depois?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Por que, mesmo sabendo que vou ser repreendida depois?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
